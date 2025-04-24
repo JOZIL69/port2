@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="brand">
+                    <h2>J<span>B</span></h2>
+                </div>
+                <ul class="Menu">
+                    <li><a class="active" href="#about">Acerca de mi</a></li>
+                    <li><a href="#experience">Experiencia</a></li>
+                    <li><a href="#portfolio">Trabajos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <div class="info content">
+                <h1>Yo soy <span>Jozil</span> Vanegas</h1>
+                <p>Soy estudiante de Ingeniería en Sistemas en Universidad tres culturas, apasionado por la tecnología y la innovación. 
+
+                    En este portafolio, encontrarás una selección de mis proyectos más destacados, que reflejan mi capacidad para trabajar en equipo, mi creatividad y mi compromiso con la excelencia. Cada proyecto ha sido una oportunidad para aprender y crecer, y estoy emocionado de compartirlos contigo.</p>
+                <a download href="Curriculum_Jozil.pdf">
+                    <button class="dowload-cv">Descargar CV</button>
+                </a>
+                <div class="computer-animation">
+                    <div class="computer-screen">
+                        <div class="screen-content">
+                            <p>Bienvenido a mi página!</p>
+                        </div>
+                    </div>
+                    <div class="computer-body">
+                        <div class="computer-keyboard"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <img src="WhatsApp_Image_2025-03-05_at_10.50.56_PM__1_-removebg-preview.png" alt="Jozil foto">
+            
+        </main>
+        
+    <div id="about" class="about">
+        <img src="biker (1).png" alt="acerca Joz">
+
+        <div class="about-info">
+            <h2>Acerca de mi</h2>
+            <div class="divider"></div>
+            <p> Soy un apasionado por las cosas diciles, me gustan las actividades que tengan que ver con la velocidad y adrenalina.</p>
+            <p>A lo largo de mi carrera, he adquirido habilidades en desarrollo de software, gestión de bases de datos, redes y diagramación UML. Mi objetivo es aplicar estos conocimientos para resolver problemas reales y contribuir al avance tecnológico.</p>
+        </div>
+    </div>
+
+    <div id="experience" class="exp">
+        <img src="experiencia-laboral_edit.jpg" alt="acerca Joz">
+    <div class="exp-info">
+        <h3>Experiencia</h3>
+        <div class="divider"></div>
+        <p>Aunque todavia me ecnuentro cursando mi carrera, he tenido la oportunidad de desarrollar una variedad de proyectos escolares que me han permitido adquirir y aplicar conocimientos en diversas áreas de la tecnología. Estos proyectos han sido fundamentales para mi formación y me han preparado para enfrentar desafíos en el mundo profesional.</p>
+        <p>Además de mis proyectos académicos, he trabajado en otros oficios no directamente relacionados con mi carrera, lo que me ha permitido desarrollar una sólida ética de trabajo y una buena cultura laboral. Estas experiencias me han enseñado la importancia de la responsabilidad, la puntualidad y el trabajo en equipo, habilidades que considero esenciales en cualquier entorno profesional.
+
+            Aunque aún no tengo experiencia profesional en el campo de la ingeniería en sistemas, estoy ansioso por aplicar mis conocimientos y habilidades en un entorno laboral. Estoy seguro de que mi formación académica y las experiencias laborales que he tenido me han preparado bien para contribuir de manera significativa en cualquier equipo.</p>
+    </div>
+    </div>
+
+    <div id="portfolio" class="portafolio">
+        <div class="portafolio-headings">
+            <h2>Mi portafolio</h2>
+            <div class="divider"></div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <img src="img5.jpg" alt="Imagen 1">
+                <div class="card-content">
+                    <h2>Proyecto Wall-e</h2>
+                    <p>Proyecto que ayudaba a la detección de plagas en lugares de dificil acceso.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="dd9261dd-902c-44c8-bd2a-bb139a90dc22.jpg" alt="Imagen 2">
+                <div class="card-content">
+                    <h2>Botones de paro y acción</h2>
+                    <p>Conexion y programacion de botones accinadores.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="9700ae02-6237-4bdb-ab70-c5c394184e2c.jpg" alt="Imagen 3">
+                <div class="card-content">
+                    <h2>Contador</h2>
+                    <p>Programación y conexion de un contador que ayudaba a cuantificar señales fisicas.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="5f943a30-cc16-4b4d-8152-d487be373e4d.jpg" alt="Imagen 4">
+                <div class="card-content">
+                    <h2>Banda transportadora</h2>
+                    <p>Armar y conectar banda para transportar e identificar objetos.</p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <section id="contact" class="contact-section">
+            <h2>Contáctame</h2>
+            <div class="contact-content">
+                <div class="contact-image">
+                    <img src="msj2.png" alt="Imagen de contacto">
+                </div>
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Correo:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; Derechos reservados Jozil Vanegas</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/tuperfil" target="_blank">
+                <img src="facebook_logo.webp" alt="Facebook">
+              </a>
+              <a href="https://www.linkedin.com/in/tuperfil" target="_blank">
+                <img src="logo_linkedin.webp" alt="LinkedIn">
+              </a>
+            </div>
+          </footer>
+
+    </body>
+</html>
